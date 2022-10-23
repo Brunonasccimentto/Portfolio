@@ -1,13 +1,11 @@
 import avatar from "../images/avatar.png"
 import {FaLinkedin, FaGithub } from "react-icons/fa"
 import { Button } from "./buttons"
-import { AboutMe } from "./aboutme"
-import { Header } from "./header"
 
 export function Home(){
     return(
         
-        <div className="flex items-center bg-[url('../images/bg-portfolio.jpg')] h-screen bg-no-repeat bg-cover md:gap-20 xl:gap-40">
+        <div id="Inicio" className="flex items-center bg-[url('../images/bg-portfolio.jpg')] h-screen bg-no-repeat bg-cover md:gap-20 xl:gap-40">
             
 
             <div className=" w-10 h-[620px] flex flex-col items-center justify-center fixed">
@@ -24,9 +22,9 @@ export function Home(){
             </div>
 
             <div className=" sm:text-left xl:text-justify 2xl:flex-shrink-0 md:w-[600px] sm:w-[250px] ml-[200px] animate-bounce">
-                <h2 className=" text-[36px] font-semibold">Olá! Me chamo <span className=" text-cyan-300 text-shadow-sm shadow-black"> Bruno </span></h2>
+                <h2 className=" text-4xl font-semibold">Olá! Me chamo <span className=" text-cyan-300 text-shadow-sm shadow-black"> Bruno </span></h2>
                 <div className=" text-lg">
-                    <p> Sou estudante e desenvolvedor Junior Front-end</p>
+                    <p> Sou estudante e desenvolvedor Front-end Junior</p>
                     <p className=" mb-8"> Conheça meu portfólio </p>
                 </div>
                 <Button text={"Conhecer"}/>

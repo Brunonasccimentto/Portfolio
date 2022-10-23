@@ -1,12 +1,19 @@
+
 import { AboutMe } from "./aboutme";
 import { Home } from "./home";
+import { Skills } from "./skills";
 
 
 export function Body(){
-    return(
+
+
+    return (
+
         <div className=" flex justify-center flex-col">
-            <Home/>
-            <AboutMe/>
+            <Home />
+            <AboutMe />
+            <Skills/>
         </div>
+
     )
 }

@@ -6,9 +6,9 @@ module.exports = {
     extend: {
 
       boxShadow: {
-        morfism:  "9px 9px 12px #adb5bf, -9px -9px 12px #e9f5ff",
+        morfism:  "9px 9px 12px #adb5bf, -9px -9px 30px #e9f5ff",
         morfismSlate: " 9px 9px 18px #0a0f1b, -9px -9px 18px #141f39",
-        inset: "inset 9px 9px 12px #adb5bf, inset -9px -9px 12px #e9f5ff",
+        inset: "inset 9px 9px 12px #adb5bf, inset -9px -9px 30px #e9f5ff",
         insetSlate: "inset 9px 9px 18px #0a0f1b, inset -9px -9px 18px #141f39"
       },
 
@@ -74,7 +74,7 @@ module.exports = {
           },
           animation: {
             slide: "slide 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;",
-            bounce: "bounce 1.5s both"
+            bounce: "bounce 1.5s both",
           }
         },
     },
