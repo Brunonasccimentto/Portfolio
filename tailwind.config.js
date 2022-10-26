@@ -9,7 +9,8 @@ module.exports = {
         morfism:  "9px 9px 12px #adb5bf, -9px -9px 30px #e9f5ff",
         morfismSlate: " 9px 9px 18px #0a0f1b, -9px -9px 18px #141f39",
         inset: "inset 9px 9px 12px #adb5bf, inset -9px -9px 30px #e9f5ff",
-        insetSlate: "inset 9px 9px 18px #0a0f1b, inset -9px -9px 18px #141f39"
+        insetSlate: "inset 9px 9px 18px #0a0f1b, inset -9px -9px 18px #141f39",
+        modalShadow: 'hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px',
       },
 
       textShadow: {
@@ -19,8 +20,14 @@ module.exports = {
       },
       fontFamily: {
         inter: "inter, sans-serif",
-        oswald: "Oswald, sans-serif"},
+        oswald: "Oswald, sans-serif"
+      },
 
+      contentShow: {
+        '0%': { opacity: 0, transform: 'translate(-50%, -48%) scale(.96)' },
+        '100%': { opacity: 1, transform: 'translate(-50%, -50%) scale(1)' },
+      },
+       
         keyframes:{
           slide:{
             "0%": {transform: "translateX(1000px) scaleY(1) scaleX(4)", 
@@ -75,6 +82,7 @@ module.exports = {
           animation: {
             slide: "slide 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;",
             bounce: "bounce 1.5s both",
+            contentShow: "contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1)"
           }
         },
     },

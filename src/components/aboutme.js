@@ -19,7 +19,7 @@ export function AboutMe(){
                 Cursei história na unb e larguei após a pandemia de covid por me sentir desanimado. Encontrei na programação essa vontade de estudar e aprender, desde então estou fazendo cursos pela internet para me capacitar à uma vaga.</p>
 
                 <div className=" mt-9 flex gap-9">
-                    <ButtonSlate text={"contato"} icon={<FaWhatsapp/>}/> <ButtonSlate text={"currículo"} icon={<FaFileDownload/>}/>
+                   <a href="https://wa.link/9um6ve" target="_blank">  <ButtonSlate text={"contato"} icon={<FaWhatsapp/>}/> </a> <ButtonSlate text={"currículo"} icon={<FaFileDownload/>}/>
                 </div>
                 
             </div>
