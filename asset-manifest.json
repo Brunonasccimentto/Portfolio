@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.551e6053.css",
-    "main.js": "/Portfolio/static/js/main.fc34e767.js",
+    "main.css": "/Portfolio/static/css/main.dc8c15fc.css",
+    "main.js": "/Portfolio/static/js/main.46755249.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/bg-portfolio.jpg": "/Portfolio/static/media/bg-portfolio.eea8c63e50f856b73dcd.jpg",
+    "static/media/DVWBBDNR29NO297101.png": "/Portfolio/static/media/DVWBBDNR29NO297101.01015f0287d7e5753bc2.png",
+    "static/media/DVWBBDNR29HT297101.png": "/Portfolio/static/media/DVWBBDNR29HT297101.7a56922c2dbe435f66df.png",
+    "static/media/DVWBBDNR29RE297101.png": "/Portfolio/static/media/DVWBBDNR29RE297101.636d78435405f9e98b9a.png",
+    "static/media/LandingPage.jpg": "/Portfolio/static/media/LandingPage.2a7dcb288783e2c10432.jpg",
     "static/media/avatar.png": "/Portfolio/static/media/avatar.c5485428f828ab00d97b.png",
+    "static/media/cronometro.jpg": "/Portfolio/static/media/cronometro.78769dc161086ec1a8fd.jpg",
+    "static/media/home.jpg": "/Portfolio/static/media/home.a44af6db4b0330a1b464.jpg",
     "static/media/eu.jpg": "/Portfolio/static/media/eu.2a92b7594b5e70e127be.jpg",
+    "static/media/calculadoraLove.jpg": "/Portfolio/static/media/calculadoraLove.f303122d8997043158dc.jpg",
+    "static/media/desing system.jpg": "/Portfolio/static/media/desing system.af1dc12365fe3f7ad0b7.jpg",
+    "static/media/calculadora.jpg": "/Portfolio/static/media/calculadora.4aed4e4d98c24481ae86.jpg",
+    "static/media/Currículo-Bruno.pdf": "/Portfolio/static/media/Currículo-Bruno.c7b08a37346536b3195c.pdf",
+    "static/media/jogo-da-velha.jpg": "/Portfolio/static/media/jogo-da-velha.b200973f39d6e2069da3.jpg",
+    "static/media/pacman.jpg": "/Portfolio/static/media/pacman.79dfb6fc0b1af9f45d21.jpg",
+    "static/media/bg-portfolio.jpg": "/Portfolio/static/media/bg-portfolio.46081aaea8e6179e1ed9.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.551e6053.css.map": "/Portfolio/static/css/main.551e6053.css.map",
-    "main.fc34e767.js.map": "/Portfolio/static/js/main.fc34e767.js.map",
+    "main.dc8c15fc.css.map": "/Portfolio/static/css/main.dc8c15fc.css.map",
+    "main.46755249.js.map": "/Portfolio/static/js/main.46755249.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.551e6053.css",
-    "static/js/main.fc34e767.js"
+    "static/css/main.dc8c15fc.css",
+    "static/js/main.46755249.js"
   ]
 }
