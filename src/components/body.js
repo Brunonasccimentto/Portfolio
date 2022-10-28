@@ -15,15 +15,16 @@ export function Body(){
    }, [])
 
     useEffect(()=>{
-        let path = window.location.pathname
+        
+         let path = window.location.pathname
     
-        if(path == "/projetos"){
-            window.document.body.children[1].children[0].children[0].children[1].children[4].children[1].style.display = "none"
-            window.document.body.children[1].children[0].children[0].children[1].children[4].children[2].style.display = "none"
-        } else {
-            window.document.body.children[1].children[0].children[0].children[1].children[4].children[1].style.display = "block"
-            window.document.body.children[1].children[0].children[0].children[1].children[4].children[2].style.display = "block"
-            window.document.body.children[1].children[0].children[0].children[1].children[4].children[3].style.color = "#f1f5f9"
+         if(path == "/projetos"){
+            window.document.body.children[1].children[0].children[0].children[1].children[1].style.display = "none"
+            window.document.body.children[1].children[0].children[0].children[1].children[2].style.display = "none"
+         } else {
+            window.document.body.children[1].children[0].children[0].children[1].children[1].style.display = "block"
+            window.document.body.children[1].children[0].children[0].children[1].children[2].style.display = "block"
+            window.document.body.children[1].children[0].children[0].children[1].children[3].style.color = "#f1f5f9"
             
           
         }

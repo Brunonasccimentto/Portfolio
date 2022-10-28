@@ -100,5 +100,6 @@ module.exports = {
         { values: theme('textShadow') }
       )
     }),
+    require('tailwind-scrollbar'),
   ],
 }

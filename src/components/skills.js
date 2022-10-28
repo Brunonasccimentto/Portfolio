@@ -46,44 +46,44 @@ export function Skills(){
     return(
        
 
-            <div id="skills" className="h-screen bg-slate-300 text-slate-900 flex justify-end items-center">
-                <div  className=" skills w-[1620px] h-[620px] flex-col  flex flex-wrap justify-start p-9 gap-6 rounded-l-[100px]">
+            <div id="skills" className="h-screen bg-slate-300 text-slate-900 flex justify-center items-center">
+                <div  className=" skills w-full h-[100%] md:w-[1620px] md:h-[650px] flex flex-col md:flex-row p-9 justify-center rounded-l-[100px]">
                     
-                    <div className=" flex  flex-col flex-wrap h-[100%] w-[680px] gap-8 pt-4 ">
+                    <div className="flex flex-col flex-wrap pt-8 h-[420px] lg:h-[100%] w-full md:w-[55%] gap-8 overflow-auto lg:overflow-hidden scrollbar scrollbar-thumb-slate-900 scrollbar-track-slate-200">
 
                     
                     <Abilities handleClick={handleClick} desc={list[0].text} works={"Html"} 
-                    icon={<FaHtml5 className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<FaHtml5 className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[1].text} works={"Css"} 
-                    icon={<FaCss3 className="w-10 h-10  text-slate-900"/>}/>
+                    icon={<FaCss3 className="w-7 h-7 md:w-10 md:h-10  text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[2].text} works={"Javascript"} 
-                    icon={<SiJavascript className="w-10 h-10  text-slate-900"/>}/>
+                    icon={<SiJavascript className="w-7 h-7 md:w-10 md:h-10  text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[3].text} works={"React"} 
-                    icon={<FaReact className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<FaReact className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[4].text} works={"Bootstrap"} 
-                    icon={<FaBootstrap className="w-10 h-10  text-slate-900"/>}/>
+                    icon={<FaBootstrap className="w-7 h-7 md:w-10 md:h-10  text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[5].text} works={"Tailwind"} 
-                    icon={<SiTailwindcss className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<SiTailwindcss className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[6].text} works={"Jquery"} 
-                    icon={<SiJquery className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<SiJquery className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[7].text} works={"Storybook"} 
-                    icon={<SiStorybook className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<SiStorybook className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[8].text} works={"Figma"} 
-                    icon={<FaFigma className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<FaFigma className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[9].text} works={"Github"} 
-                    icon={<FaGithub className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<FaGithub className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[10].text} works={"Git"} 
-                    icon={<FaGitAlt className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<FaGitAlt className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[11].text} works={"Node"} 
-                    icon={<FaNodeJs className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<FaNodeJs className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[12].text} works={"MongoDb"} 
-                    icon={<SiMongodb className="w-10 h-10 text-slate-900"/>}/>
+                    icon={<SiMongodb className="w-7 h-7 md:w-10 md:h-10 text-slate-900"/>}/>
 
                     </div>
                     
-                    <div className="skills w-[600px] h-[100%] flex flex-col gap-10 mt-3 bg-slate-900 rounded-3xl p-6">
-                        <h2 className=" text-4xl text-cyan-300 text-shadow-sm shadow-black">{abilityActive} {abilityActive? <span className=" rotate-90">|</span> : <h2 className=" text-4xl text-cyan-300 text-shadow-sm shadow-black"> Habilidades </h2>} </h2>
-                        <p className=" text-lg text-slate-300">{text}</p>
+                    <div className="skills md:w-[600px] md:h-[100%] flex flex-col gap-10 mt-3 bg-slate-900 rounded-3xl p-6">
+                        <h2 className=" text-xl md:text-4xl text-cyan-300 text-shadow-sm shadow-black">{abilityActive} {abilityActive? <span className=" rotate-90">|</span> : <h2 className=" text-xl md:text-3xl text-cyan-300 text-shadow-sm shadow-black"> Habilidades </h2>} </h2>
+                        <p className=" text-md text-slate-300">{text}</p>
                         
                     </div>
                 </div>
