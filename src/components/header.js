@@ -15,29 +15,29 @@ export function Header({menuItens}){
     }
    
     return(
-    <div className=" bg-slate-900 w-screen list-none text-slate-100 flex flex-col lg:flex-row items-center md:justify-between md:h-24 fixed z-10">
+    <div className=" bg-slate-900 w-full list-none text-slate-100 flex flex-col lg:flex-row items-center lg:justify-between lg:h-24 lg:fixed z-10">
 
         <div className="flex flex-row w-full justify-between items-center">
 
-            <div className=" ml-5 md:ml-9 font-oswald font-light text-3xl md:text-4xl">
+            <div className=" ml-5 lg:ml-9 font-oswald font-light text-3xl lg:text-4xl">
                 <Link to={"/portfolio"}> <h1 className=" first-letter:text-cyan-300">BnRPortfólio</h1> </Link>
             </div>
             
-            <div onClick={toggleHeader} className="flex flex-col md:flex-row w-20 cursor-pointer md:cursor-default justify-end md:w-full items-center md:gap-[46px] md:mr-32">
+            <div onClick={toggleHeader} className="flex flex-col lg:flex-row w-20 cursor-pointer lg:cursor-default justify-end lg:w-full items-center lg:gap-[46px] lg:mr-32">
 
-                <span className="text-cyan-300 -mb-7 md:-mb-0 font-thin text-3xl rotate-90 md:text-6xl md:rotate-90 ">|</span>
-                <span className="text-cyan-300 -mb-7 md:-mb-0  font-thin text-3xl rotate-90 md:text-6xl md:rotate-90 ">|</span>
-                <span className="text-cyan-300 -mb-7 md:-mb-0  font-thin text-3xl rotate-90 md:text-6xl md:rotate-90 ">|</span>
-                <span className="text-cyan-300  font-thin text-3xl rotate-90 md:text-6xl md:rotate-90 ">|</span>
+                <span className="text-cyan-300 -mb-7 lg:-mb-0  -ml-1 font-thin text-3xl rotate-90 lg:text-6xl lg:rotate-90 ">|</span>
+                <span className="text-cyan-300 -mb-7 lg:-mb-0  -ml-1  font-thin text-3xl rotate-90 lg:text-6xl lg:rotate-90 ">|</span>
+                <span className="text-cyan-300 -mb-7 lg:-mb-0  -ml-1  font-thin text-3xl rotate-90 lg:text-6xl lg:rotate-90 ">|</span>
+                <span className="text-cyan-300 -ml-1 font-thin text-3xl rotate-90 lg:text-6xl lg:rotate-90 ">|</span>
 
             </div>
 
         </div> 
 
-            <ul className={` flex gap-2 -mt-4 md:-mt-0 p-2 md:p-0 w-full md:w-auto md:gap-24 md:mr-11 items-center flex-col transition-all duration-700 ${slide} overflow-hidden md:overflow-visible md:justify-end md:flex md:flex-row`}>
+            <ul className={`flex gap-2 -mt-4 lg:-mt-0 p-2 lg:p-0 w-full lg:w-auto lg:gap-24 lg:mr-11 items-center flex-col transition-all duration-700 ${slide} overflow-hidden lg:overflow-visible lg:justify-end lg:flex lg:flex-row`}>
             
             {menuItens.map((item, index)=>{
-            return <li key={index} onClick={toggleHeader} className={`list-none hover:brightness-110 cursor-pointer mt-[1px] md:mt-0 text-xl hover:text-cyan-300 transition-all duration-500 md:block`}> 
+            return <li key={index} onClick={toggleHeader} className={`list-none hover:brightness-110 cursor-pointer mt-[1px] lg:mt-0 text-xl hover:text-cyan-300 transition-all duration-500 lg:block`}> 
             {item !== "projetos"? <a href={`#${item}`}>{item}</a> : <Link to={item}> {item} </Link>} </li>})}
 
             </ul>

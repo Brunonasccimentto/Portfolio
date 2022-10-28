@@ -10,7 +10,7 @@ export function Footer(){
             <div> 
                 <h3 className="text-cyan-300 text-xl md:text-3xl">Certificados</h3>
             </div>
-            <div className="flex flex-col md:flex-row justify-center gap-10">
+            <div className="flex flex-col lg:flex-row justify-center gap-10">
                 <Certificates image={HtmlCssJavascript}/>
                 <Certificates image={MongoNode}/>
                 <Certificates image={React}/>
