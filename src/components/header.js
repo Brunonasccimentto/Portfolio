@@ -34,7 +34,7 @@ export function Header({menuItens}){
 
         </div> 
 
-            <ul className={`flex gap-2 -mt-4 lg:-mt-0 p-2 lg:p-0 w-full lg:w-auto lg:gap-24 lg:mr-11 items-center flex-col transition-all duration-700 ${slide} overflow-hidden lg:overflow-visible lg:justify-end lg:flex lg:flex-row`}>
+            <ul className={`flex gap-2 -mt-4 lg:-mt-0 p-2 pt-4 lg:p-0 w-full lg:w-auto lg:gap-24 lg:mr-11 items-center flex-col transition-all duration-700 ${slide} overflow-hidden lg:overflow-visible lg:justify-end lg:flex lg:flex-row`}>
             
             {menuItens.map((item, index)=>{
             return <li key={index} onClick={toggleHeader} className={`list-none hover:brightness-110 cursor-pointer mt-[1px] lg:mt-0 text-xl hover:text-cyan-300 transition-all duration-500 lg:block`}> 
