@@ -2,6 +2,7 @@ import { Certificates } from "./certificates";
 import HtmlCssJavascript from "../certificates/DVWBBDNR29HT297101.png"
 import MongoNode from "../certificates/DVWBBDNR29NO297101.png"
 import React from "../certificates/DVWBBDNR29RE297101.png"
+import FireBase from "../certificates/DVWBBDNR29FI297101.png"
 
 export function Footer(){
 
@@ -14,6 +15,7 @@ export function Footer(){
                 <Certificates image={HtmlCssJavascript}/>
                 <Certificates image={MongoNode}/>
                 <Certificates image={React}/>
+                <Certificates image={FireBase}/>
             </div>
             
         </div>

@@ -49,7 +49,7 @@ export function Skills(){
             <div id="skills" className=" bg-slate-300 md:h-[1080px] text-slate-900 flex justify-center items-center">
                 <div  className=" skills w-full h-[100%] lg:w-[1620px] lg:h-[650px] flex flex-col lg:flex-row p-9 justify-center rounded-l-[100px]">
                     
-                    <div className="flex flex-col flex-wrap pt-8 pl-10 h-[420px] lg:h-[100%] w-full lg:w-[55%] gap-8 overflow-auto lg:overflow-hidden scrollbar scrollbar-thumb-slate-900 scrollbar-track-slate-200">
+                    <div className="flex flex-col flex-wrap pt-8 pl-10 h-[420px] lg:h-[100%] w-full lg:w-[55%] gap-8 overflow-auto lg:overflow-hidden scrollbar-thumb-slate-900 scrollbar-thin scrollbar-track-transparent">
 
                     
                     <Abilities handleClick={handleClick} desc={list[0].text} works={"Html"} 
