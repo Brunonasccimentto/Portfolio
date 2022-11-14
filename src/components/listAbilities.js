@@ -56,5 +56,10 @@ export const list = [
         name: "MongoDb",
         text: "MongoDB é um software de banco de dados orientado a documentos livre, de código aberto e multiplataforma, escrito na linguagem C++. Classificado como um programa de banco de dados NoSQL, o MongoDB usa documentos semelhantes a JSON com esquemas."
     },
+
+    {
+        name: "Cypress",
+        text: " cypress é a ferramenta que utiliza o Javascript para sua escrita e possibilita que sejam realizados testes para cada camada da pirâmide, se destacando no âmbito dos testes end-to-end (e2e) ."
+    }
 ]
 
