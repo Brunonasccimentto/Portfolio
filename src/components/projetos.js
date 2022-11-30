@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react"
+import {useEffect} from "react"
 import { Project } from "./projects"
 import MusicApp from "../images/home.jpg"
 import LandingPage from "../images/LandingPage.jpg"
@@ -8,10 +8,11 @@ import jogoDaVelha from "../images/jogo-da-velha.jpg"
 import calculadoraLove from "../images/calculadoraLove.jpg"
 import pacman from "../images/pacman.jpg"
 import cronometro from "../images/cronometro.jpg"
+import chat from "../images/chat.jpg"
 import { SideIcons } from "./sideIcons"
 import { useNavigate } from "react-router-dom"
-import { FaBootstrap, FaCss3, FaHtml5, FaNode, FaNodeJs, FaReact, FaStar } from "react-icons/fa"
-import { SiFigma, SiJavascript, SiMongodb, SiStorybook, SiTailwindcss, SiTypescript } from "react-icons/si"
+import { FaBootstrap, FaCss3, FaHtml5, FaNodeJs, FaReact, FaStar } from "react-icons/fa"
+import { SiFigma, SiJavascript, SiMongodb, SiSocketdotio, SiStorybook, SiTailwindcss, SiTypescript } from "react-icons/si"
 
 export function Projetos(){
 
@@ -21,7 +22,7 @@ export function Projetos(){
         
         let path = window.location.pathname
    
-        if(path == "/projetos"){
+        if(path === "/projetos"){
            window.document.body.children[1].children[0].children[0].children[1].children[0].addEventListener("click", ()=>{Navigate("/")})
            window.document.body.children[1].children[0].children[0].children[1].children[1].style.display = "none"
            window.document.body.children[1].children[0].children[0].children[1].children[2].style.display = "none"
@@ -35,11 +36,11 @@ export function Projetos(){
 
     return(
         <div className=" bg-slate-900 w-full h-full md:h-screen flex justify-center items-center overflow-auto ">
-            <div className=" flex mt-56 md:mt-0 items-center justify-center gap-8 lg:shadow-insetSlate h-[50%] lg:h-auto md:p-7">
+            <div className=" flex mt-56 md:mt-0 items-center justify-center lg:shadow-insetSlate h-[50%] lg:h-auto md:p-7">
                 <div className="md:flex justify-center items-center hidden">
                     <SideIcons color={"text-slate-300"}/>
                 </div>
-                    <div className="flex items-center justify-center gap-8 flex-wrap md:h-[100%]">
+                    <div className="flex items-center gap-6 justify-center flex-wrap md:h-[100%] overflow-auto">
                         <Project projectName={"Music App"} link={"https://brunonasccimentto.github.io/musicApp/"} image={MusicApp} icons={[<FaReact className=" w-7 h-7"/>, <FaNodeJs className=" w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>, <SiMongodb className="w-7 h-7"/>]} star={<FaStar/>} description={"Um aplicativo web de músicas. Esse projeto junta um pouco de tudo o que aprendi durante esses meses de aprendizado. O aplicativo conta com um sistema de registro e login de usúarios, campo de busca de suas músicas preferidas, podendo ir para a página do artista dessa música ou para a página do album que essa música pertence. Além disso pode dar 'like' e adicioná-las a sua biblioteca. tecnologias utilizadas: React.js: state, effect, router javascript node.js mongodb; css;requisições: fetch e axios."}/>
                         <Project projectName={"Landing page"} link={"https://brunonasccimentto.github.io/landingpage/"} image={LandingPage} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>, <FaBootstrap className="w-7 h-7"/>]} description={"Uma landing page profissional para advocacia."} />
                         <Project projectName={"Calculadora de apostas"} link={"https://brunonasccimentto.github.io/calculadora-de-aposta/"} image={calculadora} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Esse é o primeiro projeto que fiz. Utilizando um pouco de matemática, criei duas calculadoras: A primeira tem como objetivo sair ganhando nas duas apostas, sem correr mais riscos. A segunda calculadora tem como objetivo zerar a sua segunda aposta, porque a chance da primeira ser a perdedora é muito alta. Dentro do site fornece mais explicações."} />
@@ -48,6 +49,7 @@ export function Projetos(){
                         <Project projectName={"Calculadora de Amor"} link={"https://brunonasccimentto.github.io/love/"} image={calculadoraLove} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Uma 'calculadora do amor' bem básica, criada para aprender mais sobre requisições fetch."} />
                         <Project projectName={"Pacman"} link={"https://brunonasccimentto.github.io/pacman/"} image={pacman} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Uma atividade do curso de desenvolvimento web para praticar o uso do canvas, e outras funcionalidades."} />
                         <Project projectName={"Cronometro"} link={"https://brunonasccimentto.github.io/cronometro/"} image={cronometro} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Atividade incentivada e desenvolvida após a aula de timeout."} />
+                        <Project projectName={"Chat"} link={"https://brunonasccimentto.github.io/chat/"} image={chat} icons={[<FaReact className="w-7 h-7"/>, <FaBootstrap className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>, <FaNodeJs className=" w-7 h-7"/>, <SiSocketdotio className=" w-7 h-7"/>]} description={"Uma aplicação de chat para conversação de usuarios simultaneamente, utilizando socket.io com node para fazer essa troca de mensagens."} />
                     </div>
             </div>     
         </div>
