@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1f6b1690.css",
-    "main.js": "/Portfolio/static/js/main.a1213ff2.js",
+    "main.css": "/Portfolio/static/css/main.cdac22b0.css",
+    "main.js": "/Portfolio/static/js/main.91bde081.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DVWBBDNR29NO297101.png": "/Portfolio/static/media/DVWBBDNR29NO297101.01015f0287d7e5753bc2.png",
     "static/media/DVWBBDNR29FI297101.png": "/Portfolio/static/media/DVWBBDNR29FI297101.8b67917bd7d9eade7bd7.png",
@@ -14,18 +14,19 @@
     "static/media/eu.jpg": "/Portfolio/static/media/eu.2a92b7594b5e70e127be.jpg",
     "static/media/calculadoraLove.jpg": "/Portfolio/static/media/calculadoraLove.f303122d8997043158dc.jpg",
     "static/media/desing system.jpg": "/Portfolio/static/media/desing system.af1dc12365fe3f7ad0b7.jpg",
+    "static/media/chat.jpg": "/Portfolio/static/media/chat.913c3ad7c4123d9df30c.jpg",
     "static/media/calculadora.jpg": "/Portfolio/static/media/calculadora.4aed4e4d98c24481ae86.jpg",
     "static/media/Currículo-Bruno.pdf": "/Portfolio/static/media/Currículo-Bruno.c7b08a37346536b3195c.pdf",
     "static/media/jogo-da-velha.jpg": "/Portfolio/static/media/jogo-da-velha.b200973f39d6e2069da3.jpg",
     "static/media/pacman.jpg": "/Portfolio/static/media/pacman.79dfb6fc0b1af9f45d21.jpg",
     "static/media/bg-portfolio.jpg": "/Portfolio/static/media/bg-portfolio.46081aaea8e6179e1ed9.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.1f6b1690.css.map": "/Portfolio/static/css/main.1f6b1690.css.map",
-    "main.a1213ff2.js.map": "/Portfolio/static/js/main.a1213ff2.js.map",
+    "main.cdac22b0.css.map": "/Portfolio/static/css/main.cdac22b0.css.map",
+    "main.91bde081.js.map": "/Portfolio/static/js/main.91bde081.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f6b1690.css",
-    "static/js/main.a1213ff2.js"
+    "static/css/main.cdac22b0.css",
+    "static/js/main.91bde081.js"
   ]
 }
