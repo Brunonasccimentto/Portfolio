@@ -60,6 +60,10 @@ export const list = [
     {
         name: "Cypress",
         text: " cypress é a ferramenta que utiliza o Javascript para sua escrita e possibilita que sejam realizados testes para cada camada da pirâmide, se destacando no âmbito dos testes end-to-end (e2e) ."
-    }
+    },
+    {
+        name: "Estudando",
+        text: " Atualmente estou aprendendo sobre MySql, pretendo criar algum projeto com CRUD. Também estou fazendo um curso na Prodigyan de desenvolvimento mobile, que além do código ensina todas as etapas do desenvolvimento de um software."
+    },
 ]
 

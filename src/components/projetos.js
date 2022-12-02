@@ -41,7 +41,7 @@ export function Projetos(){
 
              
             <div className=" flex justify-center lg:shadow-insetSlate w-full md:p-7">
-                <div className="h-screen flex justify-center items-center">
+                <div className="h-screen sm:flex justify-center items-center hidden">
                 <SideIcons color={"text-slate-300"}/>
                 </div>
 
