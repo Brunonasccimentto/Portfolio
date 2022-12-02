@@ -5,12 +5,12 @@ export function Project({image, projectName, description, link, star, icons}){
         
         <div className='flex flex-col items-center justify-center gap-2 w-96'>
             <div className='flex items-center gap-3'>
-                <span className=' text-slate-300 text-xl'>{projectName}</span>
+                <span className=' text-slate-300 lg:lg xxl:text-xl'>{projectName}</span>
                 <span className=' text-yellow-400 text-xl'>{star}</span> 
             </div>
         <Dialog.Root>
             <Dialog.Trigger asChild> 
-                <img src={image} className=" w-[90%] md:w-80 md:h-52 rounded-md cursor-pointer"></img>    
+                <img src={image} className=" w-96 lg:w-72 lg:h-46 xxl:w-80 xxl:h-52 rounded-md cursor-pointer object-contain"></img>    
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className='fixed top-0 left-0 right-0 bottom-0 bg-black/60 grid place-items-center overflow-y-auto z-20'>

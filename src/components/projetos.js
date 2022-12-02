@@ -35,12 +35,17 @@ export function Projetos(){
    },[])
 
     return(
-        <div className=" bg-slate-900 w-full h-full md:h-screen flex justify-center items-center overflow-auto ">
-            <div className=" flex mt-56 md:mt-0 items-center justify-center lg:shadow-insetSlate h-[50%] lg:h-auto md:p-7">
-                <div className="md:flex justify-center items-center hidden">
-                    <SideIcons color={"text-slate-300"}/>
+        <div className=" bg-slate-900 w-full flex justify-center items-center">
+            
+            
+
+             
+            <div className=" flex justify-center lg:shadow-insetSlate w-full md:p-7">
+                <div className="h-screen flex justify-center items-center">
+                <SideIcons color={"text-slate-300"}/>
                 </div>
-                    <div className="flex items-center gap-6 justify-center flex-wrap md:h-[100%] overflow-auto">
+
+                    <div className="flex items-center justify-center gap-6 flex-wrap mt-20">
                         <Project projectName={"Music App"} link={"https://brunonasccimentto.github.io/musicApp/"} image={MusicApp} icons={[<FaReact className=" w-7 h-7"/>, <FaNodeJs className=" w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>, <SiMongodb className="w-7 h-7"/>]} star={<FaStar/>} description={"Um aplicativo web de músicas. Esse projeto junta um pouco de tudo o que aprendi durante esses meses de aprendizado. O aplicativo conta com um sistema de registro e login de usúarios, campo de busca de suas músicas preferidas, podendo ir para a página do artista dessa música ou para a página do album que essa música pertence. Além disso pode dar 'like' e adicioná-las a sua biblioteca. tecnologias utilizadas: React.js: state, effect, router javascript node.js mongodb; css;requisições: fetch e axios."}/>
                         <Project projectName={"Landing page"} link={"https://brunonasccimentto.github.io/landingpage/"} image={LandingPage} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>, <FaBootstrap className="w-7 h-7"/>]} description={"Uma landing page profissional para advocacia."} />
                         <Project projectName={"Calculadora de apostas"} link={"https://brunonasccimentto.github.io/calculadora-de-aposta/"} image={calculadora} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Esse é o primeiro projeto que fiz. Utilizando um pouco de matemática, criei duas calculadoras: A primeira tem como objetivo sair ganhando nas duas apostas, sem correr mais riscos. A segunda calculadora tem como objetivo zerar a sua segunda aposta, porque a chance da primeira ser a perdedora é muito alta. Dentro do site fornece mais explicações."} />

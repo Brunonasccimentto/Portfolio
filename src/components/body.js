@@ -32,7 +32,7 @@ export function Body(){
 
     return (
 
-        <div className=" flex justify-center flex-col">
+        <div className=" flex justify-center flex-col"> 
             <Home />
             <AboutMe />
             <Skills />
