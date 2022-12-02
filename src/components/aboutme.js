@@ -6,7 +6,7 @@ import curriculo from "../certificates/Currículo-Bruno.pdf"
 export function AboutMe(){
     return(
         <div id="sobre" className=" bg-slate-300 md:h-screen flex items-center justify-center">
-            <div className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-16 2xl:gap-32 bg-slate-900 pt-8 2xl:p-16 2xl:p-24 lg:w-[80%] text-slate-300 lg:rounded-tr-[100px] lg:rounded-bl-[100px] lg:rounded-tl-3xl lg:rounded-br-3xl">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-16 2xl:gap-32 bg-slate-900 pt-8 2xl:p-16 lg:w-[80%] text-slate-300 lg:rounded-tr-[100px] lg:rounded-bl-[100px] lg:rounded-tl-3xl lg:rounded-br-3xl">
 
             
             <div className=" border-8 flex items-center justify-center border-cyan-300 w-[160px] 2xl:w-[220px]">
