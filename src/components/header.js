@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 
 export function Header({menuItens}){
@@ -6,10 +6,10 @@ export function Header({menuItens}){
     const [slide, setslide] = useState("h-0")
     
     function toggleHeader(){
-        if(slide !== "h-0" && window.screen.width < 1024){
+        if(slide !== "h-0" && visualViewport.width < 1024){
             setslide("h-0")
         } 
-        else if(slide === "h-0" && window.screen.width < 1024){
+        else if(slide === "h-0" && visualViewport.width < 1024){
             setslide("h-[170px]")
         }
     }
