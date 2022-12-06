@@ -10,7 +10,7 @@ export function Project({image, projectName, description, link, star, icons}){
             </div>
         <Dialog.Root>
             <Dialog.Trigger asChild> 
-                <img src={image} className=" w-96 lg:w-72 lg:h-46 xxl:w-80 xxl:h-52 rounded-md cursor-pointer object-contain"></img>    
+                <img src={image} className=" w-[80%] sm:w-96 lg:w-72 lg:h-46 xxl:w-80 xxl:h-52 rounded-md cursor-pointer"></img>    
             </Dialog.Trigger>
             <Dialog.Portal>
                 <Dialog.Overlay className='fixed top-0 left-0 right-0 bottom-0 bg-black/60 grid place-items-center overflow-y-auto z-20'>
