@@ -1,6 +1,7 @@
 import { Abilities } from "./abilities";
-import {FaBootstrap, FaCss3, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact} from "react-icons/fa"
-import {SiJavascript, SiTailwindcss, SiJquery, SiStorybook, SiMongodb, SiCypress} from "react-icons/si"
+import {FaBootstrap, FaCss3, FaDocker, FaFigma, FaGitAlt, FaGithub, FaHtml5, FaNodeJs, FaReact} from "react-icons/fa"
+import {SiJavascript, SiTailwindcss, SiJquery, SiStorybook, SiMongodb, SiCypress, SiMysql} from "react-icons/si"
+import {GrMysql} from "react-icons/gr"
 import {BiBookBookmark} from "react-icons/bi"
 import React, { useState } from "react";
 import { list } from "./listAbilities";
@@ -81,6 +82,10 @@ export function Skills(){
                     icon={<SiMongodb className="w-7 h-7 2xl:w-10 2xl:h-10 text-slate-900"/>}/>
                      <Abilities handleClick={handleClick} desc={list[13].text} works={"Cypress"} 
                     icon={<SiCypress className="w-7 h-7 2xl:w-10 2xl:h-10 text-slate-900"/>}/>
+                    <Abilities handleClick={handleClick} desc={list[16].text} works={"Mysql"} 
+                    icon={<GrMysql className="w-7 h-7 2xl:w-10 2xl:h-10 text-slate-900"/>}/>
+                    <Abilities handleClick={handleClick} desc={list[15].text} works={"Docker"} 
+                    icon={<FaDocker className="w-7 h-7 2xl:w-10 2xl:h-10 text-slate-900"/>}/>
                     <Abilities handleClick={handleClick} desc={list[14].text} works={"Estudando"} 
                     icon={<BiBookBookmark className="w-7 h-7 2xl:w-10 2xl:h-10 text-slate-900"/>}/>
 

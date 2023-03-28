@@ -63,7 +63,15 @@ export const list = [
     },
     {
         name: "Estudando",
-        text: " Atualmente estou aprendendo sobre MySql, pretendo criar algum projeto com CRUD. Também estou fazendo um curso na Prodigyan de desenvolvimento mobile, que além do código ensina todas as etapas do desenvolvimento de um software."
+        text: "Atualmente estou tendo aulas no curso de desenvolvimento mobile na prodigyan. Nas atividades ocorrem atividades que simulam o mundo real de trabalho, a fim de desenvolver as melhores softskills da área."
     },
+    {
+        name: "Docker",
+        text: "Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres. Os contêineres são isolados uns dos outros e agrupam seus próprios softwares, bibliotecas e arquivos de configuração."
+    },
+    {
+        name: "mysql",
+        text: "O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo."
+    }
 ]
 

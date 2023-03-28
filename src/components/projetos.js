@@ -9,10 +9,13 @@ import calculadoraLove from "../images/calculadoraLove.jpg"
 import pacman from "../images/pacman.jpg"
 import cronometro from "../images/cronometro.jpg"
 import chat from "../images/chat.jpg"
+import abertura from "../images/abertura.jpg"
+import apiClientes from "../images/api-clientes.jpg"
+import appMobile from "../images/app mobile.jpg"
 import { SideIcons } from "./sideIcons"
 import { useNavigate } from "react-router-dom"
-import { FaBootstrap, FaCss3, FaHtml5, FaNodeJs, FaReact, FaStar } from "react-icons/fa"
-import { SiFigma, SiJavascript, SiMongodb, SiSocketdotio, SiStorybook, SiTailwindcss, SiTypescript } from "react-icons/si"
+import { FaBootstrap, FaCss3, FaDocker, FaFilePdf, FaHtml5, FaMobile, FaNodeJs, FaReact, FaStar } from "react-icons/fa"
+import { SiExpo, SiFigma, SiJavascript, SiMongodb, SiMysql, SiSocketdotio, SiStorybook, SiTailwindcss, SiTypescript } from "react-icons/si"
 
 export function Projetos(){
 
@@ -55,6 +58,9 @@ export function Projetos(){
                         <Project projectName={"Pacman"} link={"https://brunonasccimentto.github.io/pacman/"} image={pacman} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Uma atividade do curso de desenvolvimento web para praticar o uso do canvas, e outras funcionalidades."} />
                         <Project projectName={"Cronometro"} link={"https://brunonasccimentto.github.io/cronometro/"} image={cronometro} icons={[<FaHtml5 className="w-7 h-7"/>, <FaCss3 className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>]} description={"Atividade incentivada e desenvolvida após a aula de timeout."} />
                         <Project projectName={"Chat"} link={"https://brunonasccimentto.github.io/chat/"} image={chat} icons={[<FaReact className="w-7 h-7"/>, <FaBootstrap className=" w-7 h-7"/>, <SiJavascript className=" w-7 h-7"/>, <FaNodeJs className=" w-7 h-7"/>, <SiSocketdotio className=" w-7 h-7"/>]} description={"Uma aplicação de chat para conversação de usuarios simultaneamente, utilizando socket.io com node para fazer essa troca de mensagens."} />
+                        <Project projectName={"Especificação de software"} link={"https://github.com/Brunonasccimentto/Especificacao-de-software-Asgard"} image={abertura} icons={[<FaFilePdf className="w-7 h-7"/>]} description={"Especificação de software - Acessando o link voce encontra toda a documentação para a criação do software, e tambem o DER do banco de dados que foi desenvolvido com base nas regras."} />
+                        <Project projectName={"api-clientes"} link={"https://github.com/Brunonasccimentto/client_api"} image={apiClientes} icons={[<FaNodeJs className="w-7 h-7"/>, <FaDocker className="w-7 h-7"/>,  <SiMysql className="w-7 h-7"/>]} description={"Api desenvolvida durante uma atividade na prodigyan, ao qual fiquei responsável em fazer o backend e passar para o front a API utilizando docker. "} />
+                        <Project projectName={"calculadora de apostas Mobile"} link={"https://github.com/Brunonasccimentto/calculadora-native"} image={appMobile} icons={[<FaReact className="w-7 h-7"/>, <FaMobile className="w-7 h-7"/>,  <SiExpo className="w-7 h-7"/>]} description={"Aplicativo mobile desenvolvivido com o objetivo de fazer uma transição do web para mobile, além de melhorar o código da calculadora anterior."} />
                     </div>
             </div>     
         </div>

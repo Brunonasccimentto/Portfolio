@@ -3,7 +3,7 @@ import * as Dialog from '@radix-ui/react-dialog';
 export function Project({image, projectName, description, link, star, icons}){
     return(
         
-        <div className='flex flex-col items-center justify-center w-72 lg:w-96'>
+        <div className='flex flex-col items-center w-72 lg:w-96'>
             <div className='flex items-center gap-3'>
                 <span className=' text-slate-300 lg:lg 2xl:text-xl'>{projectName}</span>
                 <span className=' text-yellow-400 text-xl'>{star}</span> 
