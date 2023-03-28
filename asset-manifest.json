@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.f7ca736f.css",
-    "main.js": "/Portfolio/static/js/main.95d37f51.js",
+    "main.css": "/Portfolio/static/css/main.c114eb91.css",
+    "main.js": "/Portfolio/static/js/main.f251949d.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/DVWBBDNR29NO297101.png": "/Portfolio/static/media/DVWBBDNR29NO297101.01015f0287d7e5753bc2.png",
     "static/media/DVWBBDNR29FI297101.png": "/Portfolio/static/media/DVWBBDNR29FI297101.8b67917bd7d9eade7bd7.png",
@@ -11,22 +11,25 @@
     "static/media/avatar.png": "/Portfolio/static/media/avatar.c5485428f828ab00d97b.png",
     "static/media/cronometro.jpg": "/Portfolio/static/media/cronometro.78769dc161086ec1a8fd.jpg",
     "static/media/home.jpg": "/Portfolio/static/media/home.a44af6db4b0330a1b464.jpg",
+    "static/media/chat.jpg": "/Portfolio/static/media/chat.ba9a4c6b5089434c0ac1.jpg",
+    "static/media/currículo.pdf": "/Portfolio/static/media/currículo.7f3cb1730861b28985e0.pdf",
     "static/media/eu.jpg": "/Portfolio/static/media/eu.2a92b7594b5e70e127be.jpg",
     "static/media/calculadoraLove.jpg": "/Portfolio/static/media/calculadoraLove.f303122d8997043158dc.jpg",
     "static/media/desing system.jpg": "/Portfolio/static/media/desing system.af1dc12365fe3f7ad0b7.jpg",
-    "static/media/chat.jpg": "/Portfolio/static/media/chat.913c3ad7c4123d9df30c.jpg",
+    "static/media/api-clientes.jpg": "/Portfolio/static/media/api-clientes.e7acd22cbe99f8351979.jpg",
     "static/media/calculadora.jpg": "/Portfolio/static/media/calculadora.4aed4e4d98c24481ae86.jpg",
-    "static/media/Currículo-Bruno.pdf": "/Portfolio/static/media/Currículo-Bruno.c7b08a37346536b3195c.pdf",
     "static/media/jogo-da-velha.jpg": "/Portfolio/static/media/jogo-da-velha.b200973f39d6e2069da3.jpg",
+    "static/media/abertura.jpg": "/Portfolio/static/media/abertura.bffd00e5b6496ddfc409.jpg",
     "static/media/pacman.jpg": "/Portfolio/static/media/pacman.79dfb6fc0b1af9f45d21.jpg",
+    "static/media/app mobile.jpg": "/Portfolio/static/media/app mobile.695293663bf0e4a13ee1.jpg",
     "static/media/bg-portfolio.jpg": "/Portfolio/static/media/bg-portfolio.46081aaea8e6179e1ed9.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.f7ca736f.css.map": "/Portfolio/static/css/main.f7ca736f.css.map",
-    "main.95d37f51.js.map": "/Portfolio/static/js/main.95d37f51.js.map",
+    "main.c114eb91.css.map": "/Portfolio/static/css/main.c114eb91.css.map",
+    "main.f251949d.js.map": "/Portfolio/static/js/main.f251949d.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7ca736f.css",
-    "static/js/main.95d37f51.js"
+    "static/css/main.c114eb91.css",
+    "static/js/main.f251949d.js"
   ]
 }
